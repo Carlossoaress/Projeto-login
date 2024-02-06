@@ -5,3 +5,56 @@ verde: #49a09d
 lilas: #5f2c82
 */
 
+*{ 
+    font-family:cursive ;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --jr:#5f2c82;
+   
+    
+} 
+ body,html {
+
+    background-color: var(--jr);
+    height: 100vh;
+    width: 100vw;
+
+ }
+ main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+
+ }
+ section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px black;
+    
+ }
+ section#login > div#imagem{
+    display: block;
+    background: var(--jr) url(../imagens/pexels-pixabay-277559.jpg)no-repeat;
+    background-size: cover; 
+    height:200px;
+    
+
+ }
+ section#login > div#formulario{
+    display: block;
+    padding: 10px;
+
+ }
+
+
